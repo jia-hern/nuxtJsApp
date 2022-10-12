@@ -5,15 +5,14 @@
 ## Basic functionalities of this app:
 
 ```bash
-# Create a firebase account, then:
 1.Blog page which shows all posts
 
 2. About page that shows some generic information
 
 3.Admin page for logging in or signing up.
-After authentication: 
-users can create a new post,  
-creat a new post, 
+After authentication:
+users can create a new post,
+creat a new post,
 and logout.
 
 ```
@@ -30,8 +29,8 @@ basefbUrl in the next step.
 replace the default rules with:
 {
   "rules": {
-    ".read": "true",  
-    ".write": "auth !=null", 
+    ".read": "true",
+    ".write": "auth !=null",
   }
 }
 
@@ -39,8 +38,8 @@ replace the default rules with:
 Copy the Web API Key. This value would be used for basefbKey in the next step.
 
 # Go to nuxt.config.js and replace the values for:
-basefbUrl 
-basefbKey 
+basefbUrl
+basefbKey
 
 ```
 
